@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Kontaktformular</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/start.css">
+    </head>
+    <body>
+        <h1>Fragen Anregungen oder Kritik? Schreiben Sie uns!</h1>   
+<form method="post" action="php/send_email.php">
+<label for="Name"><b>Name:</b></label><br>
+<input type="text" id="Name" name="Name"><br><br>
+ 
+<label for="Email"><b>E-Mail:</b></label><br>
+<input type="text" id="Email" name="Email"><br><br>
+ 
+<label for="Betreff"><b>Betreff:</b></label><br>
+<input type="text" id="Betreff" name="Betreff"><br><br>
+ 
+<label for="Nachricht"><b>Nachricht:</b></label><br>
+<textarea id="Nachricht" name="Nachricht" rows="10" cols="50"></textarea> <br><br>
+ 
+<input type="submit" name="submit">
+</form>
+    </body>
+</html>
